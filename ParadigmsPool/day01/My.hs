@@ -132,4 +132,9 @@ myPartition func list = (myFilter func list, myUnFilter func list)
 
 myQuickSort :: (a -> a -> Bool) -> [a] -> [a]
 myQuickSort _ [] = []
-myQuickSort f list = list
+myQuickSort pred (x:xs) = myAppend qUnsorted (x:qSorted)
+  where
+    (partTrue, partFalse) = myPartition (pred x) xs
+
+    ( qSorted
+      , qUnsorted) = (myQuickSort pred partTrue, myQuickSort pred partFalse)
