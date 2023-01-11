@@ -1,0 +1,9 @@
+/tools/
+
+*.hi
+*.o
+
+/pushswap_checker
+*.cabal
+/.stack-work
+/test/coverage
