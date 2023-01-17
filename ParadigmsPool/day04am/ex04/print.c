@@ -23,24 +23,24 @@ void print_reverse(const char *str)
 {
     if (str == NULL)
         return;
-    for (ssize_t i = strlen(str); i >= 0; i--)
-        printf("%c", str[i]);
-    printf("\n");
+    for (ssize_t i = strlen(str) - 1; i >= 0; i--)
+        putchar(str[i]);
+    putchar('\n');
 }
 
 void print_upper(const char *str)
 {
     if (str == NULL)
         return;
-    for (size_t i = 0; i < strlen(str); i++) {
+    for (size_t i = 0; i < strlen(str); i++)
         putchar(toupper(str[i]));
-    }
+    putchar('\n');
 }
 
 void print_42(const char *str)
 {
     (void) str;
-    printf("42\n");
+    print_normal("42");
 }
 
 void do_action(action_t action, const char *str)
