@@ -1,0 +1,26 @@
+# temporary files
+
+*#
+*~
+*.a
+*.o
+*.gcda
+*.gcno
+
+# binaries
+
+a.out
+
+# debug
+
+vgcore.*
+coding-style-reports.log
+
+# development
+
+/.idea
+/.vscode
+CMakeLists.txt
+/cmake-build-debug
+
+tmp/
