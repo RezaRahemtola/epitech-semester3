@@ -1,0 +1,10 @@
+unit_tests
+*~
+*.a
+*.o
+*.gcda
+*.gcno
+.idea/
+.vscode/
+coding-style-reports.log
+/tmp/
