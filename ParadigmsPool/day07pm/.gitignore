@@ -1,0 +1,6 @@
+/tmp
+
+*.o
+a.out
+Destination.hpp
+vgcore.*
