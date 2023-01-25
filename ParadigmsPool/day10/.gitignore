@@ -1,0 +1,9 @@
+/tmp
+
+*.o
+a.out
+vgcore.*
+Makefile
+
+IFruitMixer.hpp
+Hack.hpp
