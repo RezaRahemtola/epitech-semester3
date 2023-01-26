@@ -1,0 +1,10 @@
+/tmp
+
+*.o
+a.out
+vgcore.*
+Makefile
+
+IObject.hpp
+
+/test
