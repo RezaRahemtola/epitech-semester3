@@ -1,0 +1,13 @@
+# Binaries
+a.out
+a.out.debug
+
+# Build
+*.o
+Makefile
+
+# Debug
+vgcore.*
+
+# Local
+/tmp
