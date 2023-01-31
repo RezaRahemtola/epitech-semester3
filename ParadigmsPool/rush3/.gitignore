@@ -1,0 +1,12 @@
+*.a
+*.o
+*#*
+*~
+*.gc*
+resources/
+.idea/
+MyGKrellm
+MyGKrellm.test
+MyGKrellm.debug
+vgcore.*
+coding-style-reports.log
